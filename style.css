@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: #0a0a0a;
+  color: #00ffcc;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #00ffcc;
+  color: #00ffcc;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  background: #00ffcc;
+  color: black;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  border-bottom: 1px solid #00ffcc;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+  background: #111;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffcc33;
+}
+
+.card a {
+  color: #00ffcc;
+  text-decoration: none;
+}
