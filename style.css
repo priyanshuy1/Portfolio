@@ -131,3 +131,7 @@ button:hover {
   background: #00ffcc;
   color: #000;
 }
+.cursor::after {
+  content: "|";
+  margin-left: 4px;
+}
