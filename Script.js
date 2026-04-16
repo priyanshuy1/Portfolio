@@ -11,4 +11,12 @@ function typingEffect() {
   }
 }
 
-window.onload = typingEffect;
+function blinkCursor() {
+  const typing = document.getElementById("typing");
+  typing.classList.toggle("cursor");
+}
+
+window.onload = () => {
+  typingEffect();
+  setInterval(blinkCursor, 500);
+};
